@@ -26,7 +26,7 @@ The custom_id must be included in the data returned as well.
 
 3) The third ticket should be to modify the `generateReport` function to show the custom_id, removing the original id, if it has been displayed.
 
-4) At least, the method used to start the report creation must be modified to be able to use the custom_id and call the `getShiftsByFacility` with the new parameter.
+4) At last, the method used to start the report creation must be modified to be able to use the custom_id and call the `getShiftsByFacility` with the new parameter.
 
 Ps: Depending on the complexity of the project, tickets 2, 3, and 4 can be treated as just one to simplify the process and make it faster.
 
