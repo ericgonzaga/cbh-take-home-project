@@ -9,3 +9,9 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+I first created 3 new test cases to test all scenarios I found out debugging the code, as you may see in dpk.test.je.
+Then, I started removing the function hash, because it was duplicated in the code, 
+and write it as separated function makes it easier to change the hash method and the digest parameter if we need.
+Last, I tried to simplify as much as I could the conditions to make it short and clear to the next developers, 
+maintaining the same expected results we got using the old function.
